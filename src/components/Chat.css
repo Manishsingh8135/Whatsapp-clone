@@ -1,0 +1,87 @@
+.chat{
+     flex:0.65;
+     background-color: rgb(203, 203, 203);
+     display: flex;
+     flex-direction: column;
+     
+     
+}
+
+.chat__header{
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.chat__headerInfo{
+    flex:1;
+    padding-left: 20px;
+}
+.chat__headerInfo>h3{
+    margin-bottom: 3px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.chat__headerInfo>p{
+    font-size: 12px;
+    color: gray;
+}
+
+.chat__headerRight{
+    min-width: 100px;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+
+/* chat body */
+.chat__body{
+    flex:1;
+    overflow: scroll;
+    padding: 30px;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+
+}
+
+.chat__message{
+    position: relative;
+    font-size: 16px;
+    padding: 10px 20px;
+    width: fit-content;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.chat__footer{
+    display: flex;
+    padding: 20px;
+    background-color: rgb(93, 93, 239);
+}
+.chat__footerSearch>input{
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.chat__footerSearch{
+    align-items: center;
+    flex:1;
+    margin-left: 15px;
+}
