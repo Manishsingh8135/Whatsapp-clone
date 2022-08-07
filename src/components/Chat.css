@@ -101,7 +101,7 @@
 }
 .chat__footer>form>input{
     flex: 1;
-    border-radius: 20px;
+    border-radius: 21px;
     border: none;
 }
 
